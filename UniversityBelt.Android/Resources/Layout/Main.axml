@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/startBattle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Battle" />
+    <Button
+        android:id="@+id/attackButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack" />
+    <Button
+        android:id="@+id/repairButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Repair" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Your school: UST" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="FEU" />
+    <ProgressBar
+        android:id="@+id/mySchoolHealth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="0"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UST" />
+    <ProgressBar
+        android:id="@+id/opponentSchoolHealth"
+        android:max="50"
+        android:progress="0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginRight="5dp" />
+    <ListView
+        android:id="@+id/events"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

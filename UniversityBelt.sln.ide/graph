@@ -1,0 +1,16 @@
+﻿<Solution Format="0.0.0.3">
+  <Version>2014-02-27T16:59:05.0893391Z</Version>
+  <Project Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.WPF\UniversityBelt.WPF.csproj">
+    <Reference Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.SharedCode\UniversityBelt.SharedCode.csproj" />
+  </Project>
+  <Project Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt\UniversityBelt.Server.csproj">
+    <Reference Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.SharedCode\UniversityBelt.SharedCode.csproj" />
+  </Project>
+  <Project Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.SharedCode\UniversityBelt.SharedCode.csproj" />
+  <Project Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.WindowsPhone\UniversityBelt.WindowsPhone.csproj">
+    <Reference Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.SharedCode\UniversityBelt.SharedCode.csproj" />
+  </Project>
+  <Project Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.Android\UniversityBelt.Android.csproj">
+    <Reference Path="C:\Users\lnluis\Documents\Visual Studio 2013\Projects\UniversityBelt\UniversityBelt.SharedCode\UniversityBelt.SharedCode.csproj" />
+  </Project>
+</Solution>
